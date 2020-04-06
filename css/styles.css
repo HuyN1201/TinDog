@@ -1,0 +1,170 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+}
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+  width: 85%;
+  color: white;
+}
+.section-heading{
+  font-weight: bold;
+  font-size: 3rem;
+}
+/* Sections */
+.color-section{
+  background-color: #ff4c68;
+}
+.white-section{
+  background-color: white;
+}
+/* Title Section */
+#title .container-fluid{
+  position: relative;
+  padding: 3% 15% 12%;
+}
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+/* Download Button */
+.download-button0{
+  position: absolute;
+  left: 15px;
+}
+.download-button9{
+  position: absolute;
+  left: 195px;
+}
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  right: 35%;
+  /* absolute will take this image out of the flow and reference its relative box*/
+  position: absolute;
+}
+.title-text{
+  margin-bottom: 125px;
+}
+/* Features/Challenge */
+#challenge{
+  padding: 7% 15%;
+  /* Position relative has the box still in the flow but is able to use top right left bottom properties */
+  position: relative;
+  z-index: 1;
+}
+.challenge-col{
+  text-align: center;
+}
+.challenge-img{
+  margin-bottom: 1rem;
+  color: #EF8172;
+}
+.challenge-img:hover{
+  color: #FF4C88;
+}
+.challenge-p{
+  color: #8F8F8F;
+}
+.challenge-h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* Testimonial Section */
+#testimonials{
+  background-color: #EF8172;
+  color: #ffff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-text{
+  font-weight: bold;
+  font-size: 3rem;
+}
+/* Press Section */
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+.press-log{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section*/
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-weight: bold;
+  font-size: 3rem;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* Call To Action Section*/
+#cta{
+  padding: 50px 100px;
+}
+.ctah3{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.download-button2{
+  margin: 25px 12.5px;
+}
+/* Footer Section */
+#footer{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding-top: 75px;
+}
+.footi{
+  margin: 20px 10px;
+}
+/* Media Query */
+@media (max-width: 1020px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
